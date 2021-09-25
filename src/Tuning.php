@@ -46,13 +46,6 @@ class Tuning extends Model
     ];
 
     /**
-     * @var array
-     */
-    protected $casts = [
-        'value' => 'array',
-    ];
-
-    /**
      * @param string       $key
      * @param string|array $value
      *
